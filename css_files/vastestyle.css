@@ -125,6 +125,10 @@ footer ul li a {
 	color: #000000;
 }
 
+.login-btn2:hover {
+	color: black;
+}
+
 #create_an_account {
 	display: none;
 	margin-top: 3%;
