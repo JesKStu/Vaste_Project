@@ -1,172 +1,181 @@
 /* Navbar style */
+
 .navbar {
-	background-color: #F6F6F6;
-	box-shadow: 2px 4px 3px #888888;
-	margin-left: -14px;
-	margin-right: -14px;
+    background-color: #F6F6F6;
+    box-shadow: 2px 4px 3px #888888;
+    margin-left: -14px;
+    margin-right: -14px;
 }
 
 .navbar a {
-	color: #31A13C;
-	text-decoration: none;
-	font-size: 20px;
+    color: #31A13C;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .navbar a:hover {
-	color: black !important;
+    color: black !important;
 }
 
 .navbar ul li a.nav-link {
-	color: #31A13C !important;
-	margin-left: 15px
+    color: #31A13C !important;
+    margin-left: 15px
 }
 
 .heart_cart {
-	color: black;
-	text-decoration: none;
+    color: black;
+    text-decoration: none;
 }
 
 .heart_cart a {
-	color: black;
+    color: black;
 }
 
 .heart_cart a:hover {
-	color: black;
+    color: black;
 }
 
 .vastelogo {
-	font-size: 30px;
-	color: #31A13C;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	margin-left: 2%;
+    font-size: 30px;
+    color: #31A13C;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    margin-left: 2%;
 }
 
 .langicon {
-	width: 36px;
-	height: 22px;
+    width: 36px;
+    height: 22px;
 }
 
+
 /*Footer */
+
 footer ul li a {
-	color: white;
+    color: white;
 }
+
 
 /* Log in page style */
 
 .vastetaustapic {
-	width: 100%;
-	background-position: center;
-	background-repeat: no-repeat;
-	box-shadow: 20px 20px 6px #00000029;
-	border-radius: 29px;
-	margin-top: 15%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 20px 20px 6px #00000029;
+    border-radius: 29px;
+    margin-top: 15%;
 }
 
 .input-box {
-	margin: 30px auto;
-	width: 80%;
-	border-bottom: 1px solid #707070;
-	padding-top: 10px;
-	padding-bottom: 5px;
+    margin: 30px auto;
+    width: 80%;
+    border-bottom: 1px solid #707070;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .input-box input {
-	border: none;
-	outline: none;
-	background: transparent;
-	color: #000;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: #000;
 }
 
 .fa {
-	margin-right: 10px;
+    margin-right: 10px;
 }
 
 .eye {
-	float: right;
-	position: absolute;
-	right: 10%;
-	cursor: pointer;
+    float: right;
+    position: absolute;
+    right: 10%;
+    cursor: pointer;
 }
+
 #hide1 {
-	display: none;
+    display: none;
 }
+
 .login-btn {
-	margin: 5% auto;
-	width: 75%;
-	height: 60px;
-	display: block;
-	outline: none;
-	padding: 10px 0 #fff;
-	cursor: pointer;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
-	box-shadow: 9px 9px 6px #00000029;
-	border: 2px solid #31A13C;
-	border-radius: 14px;
-	text-align: center;
-	font: 28px Segoe UI;
-	letter-spacing: 0px;
-	color: #000000;
+    margin: 5% auto;
+    width: 75%;
+    height: 60px;
+    display: block;
+    outline: none;
+    padding: 10px 0 #fff;
+    cursor: pointer;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 9px 9px 6px #00000029;
+    border: 2px solid #31A13C;
+    border-radius: 14px;
+    text-align: center;
+    font: 28px Segoe UI;
+    letter-spacing: 0px;
+    color: #000000;
 }
 
 .login-btn2 {
-   margin:4% auto;
-	width: 75%;
-	height: 60px;
-	display: block;
-	outline: none;
-	padding: 10px 10px;
-	cursor: pointer;
-	background: #FFFFFF 0% 0% no-repeat padding-box;
-	box-shadow: 9px 9px 6px #00000029;
-	border: 2px solid #31A13C;
-	border-radius: 14px;
-	text-align: center;
-	font: 28px Segoe UI;
-	color: #000000;
+    margin: 4% auto;
+    width: 75%;
+    height: 60px;
+    display: block;
+    outline: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 9px 9px 6px #00000029;
+    border: 2px solid #31A13C;
+    border-radius: 14px;
+    text-align: center;
+    font: 28px Segoe UI;
+    color: #000000;
 }
 
 .login-btn2:hover {
-	color: black;
+    color: black;
 }
 
 #create_an_account {
-	display: none;
-	margin-top: 3%;
+    display: none;
+    margin-top: 3%;
 }
 
 .hide_show {
-	margin-top: 11%;
-	border: none;
-	outline:none;
-	background-color: white; 
-  	font-size: 3vw;
-  	cursor: pointer;
-  	color: gray;
+    margin-top: 11%;
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 3vw;
+    cursor: pointer;
+    color: gray;
 }
 
-.hide_show:hover {opacity: 1}
+.hide_show:hover {
+    opacity: 1
+}
 
 .remember_me_btn {
-	padding-bottom: 1px;
+    padding-bottom: 1px;
 }
+
 
 /* Create new customer account page style */
 
 .main_block {
-	margin-top: 9%;
-	background: #F7F7F7 0% 0% no-repeat padding-box;
-	box-shadow: 17px 15px 0px #31A13C;
-	border: 1px solid #707070;
-	border-radius: 30px;
-	height: 100%;
-	width: 80%;
+    margin-top: 9%;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    box-shadow: 17px 15px 0px #31A13C;
+    border: 1px solid #707070;
+    border-radius: 30px;
+    height: 100%;
+    width: 80%;
 }
 
 .user_icon {
-	font-size:130px; 
-	color: #31A13C; 
-	-webkit-text-stroke-width: 1.5px;
-	-webkit-text-stroke-color: black;
+    font-size: 130px;
+    color: #31A13C;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
 
 .separator {
@@ -174,44 +183,191 @@ footer ul li a {
     align-items: center;
     text-align: center;
 }
-.separator::before, .separator::after {
+
+.separator::before,
+.separator::after {
     content: '';
     flex: 1;
-    border-bottom: 7px solid #545454;	
+    border-bottom: 7px solid #545454;
     border-radius: 4px;
 }
+
 .separator::before {
     margin-right: .5em;
     margin-left: 0.5em;
 }
+
 .separator::after {
     margin-left: .5em;
     margin-right: 0.5em;
 }
 
 form .form-control {
-	border-radius: 15px !important;
-	border: 1px solid #31A13C !important;
+    border-radius: 15px !important;
+    border: 1px solid #31A13C !important;
 }
 
 .policy_link {
-	color: #31A13C;
+    color: #31A13C;
 }
 
 .policy_link:hover {
-	color: #31A13C;
+    color: #31A13C;
 }
-
 
 
 /* Help Page */
 
 .answer_box {
-	border-radius: 15px !important; 
-	border: 1px solid #31A13C !important;
+    border-radius: 15px !important;
+    border: 1px solid #31A13C !important;
 }
 
 .button_box {
-	border-radius: 15px !important;
-	border: 1px solid #31A13C !important;
+    border-radius: 15px !important;
+    border: 1px solid #31A13C !important;
+}
+
+
+/* About Us page */
+
+.flip-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #31A13C;
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+/* Add new product */
+
+.add_btn {
+    border-radius: 7px;
+    border: 1px solid #31A13C;
+    margin-top: 5px;
+}
+
+
+/* Main page */
+
+.view {
+    border: none;
+    font-size: 23px;
+    color: #31A13C;
+}
+
+.sort_by_btn {
+    border: 1px solid #31A13C;
+    border-radius: 5px;
+    width: 19%;
+    background-color: #31A13C;
+    color: black;
+    margin-left: 70%;
+}
+
+.product_block {
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: white;
+    height: 75%;
+    box-shadow: 0px 4px 4px 4px #888888;
+    border-radius: 3px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 30px;
+    margin-top: 25px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    height: 170px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+.column:hover {
+    transform: scale(1.4);
+}
+
+.show_more {
+    margin-top: 15px;
+    background-color: #FFFFFF;
+    height: 60px;
+    width: 98.3%;
+    box-shadow: 0px 4px 4px 4px #888888;
+}
+
+.pagination_btn {
+    margin-top: 20px;
+    font-size: 19px;
+    margin-right: 5%;
+}
+
+.pagination a:active {
+    background-color: #31A13C;
+    color: black;
+}
+
+.pagination a:hover {
+    background-color: #31A13C;
+    color: black;
+}
+
+.recently_viewed {
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 4px 4px #888888;
+    border-radius: 3px;
+    height: 19%;
 }
