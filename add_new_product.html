@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Vaste Webshop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Vaste CSS-->
+    <link rel="stylesheet" type="text/css" href="css_files/vastestyle.css">
+    <!--CSS Links-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--Top Header-->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="border-color: green;">
+				<span class="navbar-toggler-icon my-toggler"></span>
+			</button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <a class="navbar-brand mr-auto" href="#"><span class="vastelogo"><i>#vastepiste</i></span></a>
+                <a class="nav-item mr-auto" href="#">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border-radius: 15px !important;">Search</button>
+                    </form>
+                </a>
+                <ul class="navbar-nav mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="margin-top: -7px">
+                            <span class="heart_cart"><a href="#"><i class="fa fa-heart-o" style="font-size: 30px; margin-left: 15px"></i></a></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="margin-top: -7px">
+                            <span class="heart_cart"><a href="#"><i class="fa fa-cart-arrow-down" style="font-size: 30px; margin-left: 15px"></i></a></span>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                            <img src="images/English.jpg" alt="English" class="langicon">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#"><img src="images/fiflag.jpg" alt="Finnish" class="langicon">&nbsp;Finnish</a>
+                            </a>
+                            <a class="dropdown-item" href="#"><img src="images/flag-Sweden.jpg" alt="Sweden" class="langicon">&nbsp;Swedish</a>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="customer_servise_help_page.html">Customer Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about_us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="LogInpage.html">Login</a>
+                        <a class="nav-link" href="#" hidden>Account</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--Form-->
+        <div class="row">
+            <div class="col-md-6 offset-md-3 col-sm-12 main_block">
+                <div class="col-md-12 col-sm-12 text-center">
+                    <span class=" user_icon"><i class="fa fa-user-circle"></i></span>
+                    <div class="separator" style="font-size: 24px">ADD NEW PRODUCT</div>
+                    <form style="margin-top: 15px; height: 100%; padding: 18px;">
+                        <div class="form-group text-left">
+                            <label for="product_name">Product Name:</label>
+                            <input type="text" class="form-control" id="product_name">
+                        </div>
+                        <div class="form-group text-left">
+                            <label for="product_description">Product Description</label>
+                            <textarea class="form-control" id="product_description" rows="3"></textarea>
+                        </div>
+                        <div class="form-row text-left">
+                            <div class="form-group col-md-6">
+                                <label for="product_color">Product Color:</label>
+                                <input type="text" class="form-control" id="product_color">
+                                <!--for adding new field-->
+                                <div id='new_product_color'></div>
+                                <button id="add_c" class="add_btn" style="margin-left: 70%;" onclick="return add('color')">Add Color</button>
+
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="product_size">Product Size:</label>
+                                <input type="text" class="form-control" id="product_size">
+                                <!--for adding new field-->
+                                <div id='new_product_size'></div>
+                                <button id="add_s" class="add_btn" style="margin-left: 75%;" " onclick="return add( 'size') ">Add Size</button>
+                            </div>
+						</div>
+						<div class="text-left ">
+							<label for=" select_file ">Select File:</label>
+							<input type=" file " class="form-control " id=" select_file ">
+						</div>
+						
+					</form>
+                </div>
+            </div>
+        </div>
+     </div>
+		<!-- Footer -->
+		<footer class="page-footer font-small pt-4 " style="margin-top: 60px; background-color: #312B2B; margin-left: -15px; margin-right: -15px; color: white ">
+			<div class="container-fluid text-center text-md-left ">
+				<div class="row ">
+					<div class="col-md-5 mt-md-0 mt-3 ">
+						<h6 class="text-uppercase ">Footer Content</h6>
+						<p style="font-size: 12px ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="col-md-1 "></div>
+					<hr class="clearfix w-100 d-md-none pb-3 ">
+					<div class="col-md-3 mb-md-0 mb-3 col-sm-6 ">
+						<h6 class="text-uppercase ">Contact Us</h6>
+						<ul class="list-unstyled ">
+							<li><a href="#! ">Link 1</a></li>
+							<li><a href="#! ">Link 2</a></li>
+							<li><a href="#! ">Link 3</a></li>
+							<li><a href="#! ">Link 4</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 mb-md-0 mb-3 col-sm-6 ">
+						<h6 class="text-uppercase ">Policies & Info</h6>
+						<ul class="list-unstyled ">
+							<li><a href="#! ">Link 1</a></li>
+							<li><a href="#! ">Link 2</a></li>
+							<li><a href="#! ">Link 3</a></li>
+							<li><a href="#! ">Link 4</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+    </div>
+
+
+    <!--Javascript Links-->
+
+    <script>
+
+		function add(x) {
+			const div = document.createElement('div');
+			div.innerHTML = `
+			<input style="margin-top:10px; " type="text " class="form-control ">
+				`;
+			if (x == 'color') {
+				document.getElementById('new_product_color').appendChild(div);
+			} else if (x == 'size') {
+				document.getElementById('new_product_size').appendChild(div);
+			}
+			return false
+		}
+
+    </script>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
+</body>
+
+</html>
