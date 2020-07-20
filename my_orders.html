@@ -72,14 +72,23 @@
                 <p class="p_name">Firstname Surname</p>
                 <p class="p_email">customer.email@mail.fi</p>
                 <hr class="hr_account"></hr>
+                <div class="account_block_bnt">
+                    <a href="main.html" class="account_block_link">Back to shop</a>
+                </div>
+                <div class="account_block_bnt">
+                    <a href="#" class="account_block_link">Edit Account</a>
+                </div>
+                <div class="account_block_bnt">
+                    <a href="#" class="account_block_link">Log out</a>
+                </div>
             </div>
             <div class="col-md-1"></div>
-            <div class="col-md-6 col-sm-12 main_block" style="height: 840px">
+            <div class="col-md-6 col-sm-12 main_block">
                 <div class="col-md-12 col-sm-12 text-center">
                     <div style="font-size: 24px; font-weight: bold; margin-top: 10px;">MY ORDERS</div>
                     <hr style="margin-top: 10px;"></hr>
                     <div>
-                        <input type="button" id="active_btn" class="active_completed" value="Active (x)" onclick="show_active()" style="color: black; margin-right: 20%;">
+                        <input type="button" id="active_btn" class="active_completed" value="Active (x)" onclick="show_active()" style="color: black; margin-right: 20%; font-weight: bold; border-bottom: 2px solid #31A13C;">
                         <input type="button" id="completed_btn" class="active_completed" value="Completed (x)" onclick="show_completed()">
                     </div>
                     <hr style="margin-top: 10px;"></hr>
@@ -127,7 +136,7 @@
                         <div class="orders_block">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
-                                    <p class="delivery_text">Delivery XX.XX.XX </p>
+                                    <p class="delivery_text">Delivered XX.XX.XX </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <p class="status">Received</p>
@@ -139,7 +148,7 @@
                         <div class="orders_block">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
-                                    <p class="delivery_text">Delivery XX.XX.XX </p>
+                                    <p class="delivery_text">Delivered XX.XX.XX </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <p class="status">Received</p>
@@ -151,13 +160,13 @@
                         <div class="orders_block">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
-                                    <p class="delivery_text">Delivery XX.XX.XX </p>
+                                    <p class="delivery_text">Delivered XX.XX.XX </p>
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <p class="status">Received</p>
                                 </div>
                             </div>
-                            <hr style="margin-top: -5px;"></hr>
+                            <hr style="margin-top: -5px; "></hr>
                             <img src="./images/placeholder.png" class="product_img_orders">
                         </div>
                     </div>
@@ -165,7 +174,7 @@
             </div>
         </div>
         <!-- Footer -->
-        <footer class="page-footer font-small pt-4" style="margin-top: 230px; background-color: #312B2B; margin-left: -15px; margin-right: -15px; color: white">
+        <footer class="page-footer font-small pt-4" style="margin-top: 230px; background-color: #312B2B; margin-left: -15px; margin-right: -15px; color: white ">
             <div class="container-fluid text-center text-md-left">
                 <div class="row">
                     <div class="col-md-5 mt-md-0 mt-3">
@@ -185,7 +194,7 @@
                         </ul>
                     </div>
                     <div class="col-md-3 mb-md-0 mb-3 col-sm-6">
-                        <h6 class="text-uppercase">Policies & Info</h6>
+                        <h6 class="text-uppercase ">Policies & Info</h6>
                         <ul class="list-unstyled">
                             <li><a href="#!">Link 1</a></li>
                             <li><a href="#!">Link 2</a></li>
@@ -199,27 +208,7 @@
     </div>
 
     <!--Javascript Links-->
-
-    <script type="text/javascript">
-        function show_active() {
-            document.getElementById("active_block").style.display = 'block';
-            document.getElementById("completed_block").style.display = 'none';
-            document.getElementById("active_btn").style.color = 'black';
-            document.getElementById("completed_btn").style.color = 'gray';
-            document.getElementById("active_btn").style.fontWeight = 'bold';
-            document.getElementById("completed_btn").style.fontWeight = 'normal';
-        }
-
-        function show_completed() {
-            document.getElementById("active_block").style.display = 'none';
-            document.getElementById("completed_block").style.display = 'block';
-            document.getElementById("active_btn").style.color = 'gray';
-            document.getElementById("completed_btn").style.color = 'black';
-            document.getElementById("active_btn").style.fontWeight = 'normal';
-            document.getElementById("completed_btn").style.fontWeight = 'bold';
-
-        }
-    </script>
+    <script src="./main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
