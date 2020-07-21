@@ -98,3 +98,12 @@ function show_create() {
     document.getElementById("create_button").style.fontWeight = 'bold';
 }
  
+
+function show_filters() {
+  let x = document.getElementById("select-box");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}

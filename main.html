@@ -52,7 +52,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="customer_servise_help_page.html">Customer Service</a>
+                        <a class="nav-link" href="customer_service_help_page.html">Customer Service</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about_us.html">About Us</a>
@@ -69,7 +69,7 @@
             <div class="col-md-12 col-sm-12">
                 <div class="row">
                     <div class="col-md-3 all_categories_nav" padding: 10px; " onclick="alert( 'hi') ">
-                        <h4>All Categories</h4>
+                        <h4 style="color:white">All Categories</h4>
                     </div>
                     <div class="col-md-9 " style="padding: 10px; background-color: white ">
                         <div class="row ">
@@ -82,60 +82,72 @@
                 </div>
             </div>
             <div class="col-md-3 ">
-                <div class="select-box ">
-                    <div class="options-container ">
-                        <div class="option ">
-                            <input type="radio " class="radio " id="automobiles " name="category " />
-                            <label for="automobiles ">Automobiles</label>
+                <div class="filters_block"> <!-- onclick(show_filters)-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p style="color: white; font-size: 23px; margin-left: 20%; margin-top: 4%"><i class="fa fa-align-left"></i>Filters</p>
+                        </div>
+                        <!--
+                        <div class="col-md-6">
+                            <button type="button" class="filter_btn">Clear All</button>
+                        </div>
+                    -->
+                    </div>
+                </div>
+                <div class="select-box" id="select-box"> <!--style="display: none;"-->
+                    <div class="options-container">
+                        <div class="option">
+                            <input type="radio" class="radio" id="company_A" name="category" />
+                            <label for="company_A">Company A</label>
                         </div>
 
-                        <div class="option ">
-                            <input type="radio " class="radio " id="film " name="category " />
-                            <label for="film ">Film & Animation</label>
+                        <div class="option">
+                            <input type="radio" class="radio" id="company_B" name="category" />
+                            <label for="company_B">Company B</label>
                         </div>
 
-                        <div class="option ">
-                            <input type="radio " class="radio " id="science " name="category " />
-                            <label for="science ">Science & Technology</label>
+                        <div class="option">
+                            <input type="radio" class="radio" id="company_C" name="category" />
+                            <label for="company_C">Company C</label>
                         </div>
 
-                        <div class="option ">
-                            <input type="radio " class="radio " id="art " name="category " />
-                            <label for="art ">Art</label>
+                        <div class="option">
+                            <input type="radio" class="radio" id="company_D" name="category" />
+                            <label for="company_D">Company D</label>
                         </div>
 
-                        <div class="option ">
-                            <input type="radio " class="radio " id="music " name="category " />
-                            <label for="music ">Music</label>
+                        <div class="option">
+                            <input type="radio" class="radio" id="company_E" name="category" />
+                            <label for="company_E">Company E</label>
                         </div>
 
-                        <div class="option ">
-                            <input type="radio " class="radio " id="travel " name="category " />
-                            <label for="travel ">Travel & Events</label>
+                        <div class="option">
+                            <input type="radio" class="radio" id="company_F" name="category" />
+                            <label for="company_F">Company F</label>
                         </div>
 
-                        <div class="option ">
-                            <input type="radio " class="radio " id="sports " name="category " />
-                            <label for="sports ">Sports</label>
+                        <div class="option">
+                            <input type="radio" class="radio" id="company_G" name="category" />
+                            <label for="company_G">Company G</label>
                         </div>
 
-                        <div class="option ">
-                            <input type="radio " class="radio " id="news " name="category " />
-                            <label for="news ">News & Politics</label>
+                        <div class="option">
+                            <input type="radio" class="radio" id="company_H" name="category" />
+                            <label for="company_H">Company H</label>
                         </div>
 
-                        <div class="option ">
-                            <input type="radio " class="radio " id="tutorials " name="category " />
-                            <label for="tutorials ">Tutorials</label>
+                        <div class="option">
+                            <input type="radio" class="radio" id="company_I" name="category" />
+                            <label for="company_I">Company I</label>
                         </div>
                     </div>
 
-                    <div class="selected ">
-                        Select Video Category
+                    <div class="selected">
+                        Select Company
                     </div>
 
-                    <div class="search-box ">
-                        <input type="text " placeholder="Start Typing... " />
+                    <div class="search-box">
+                        <input type="text" placeholder="Start Typing..." />
                     </div>
                 </div>
             </div>
