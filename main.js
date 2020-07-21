@@ -39,6 +39,16 @@ const filterList = searchTerm => {
     });
 };
 
+
+function show_filters() {
+  let x = document.getElementById("select-box");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
 // My Orders Page
 function show_active() {
     document.getElementById("active_block").style.display = 'block';
@@ -99,11 +109,17 @@ function show_create() {
 }
  
 
-function show_filters() {
-  let x = document.getElementById("select-box");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
+
+// Add New Product Page
+function add(x) {
+    const div = document.createElement('div');
+    div.innerHTML = `
+    <input style="margin-top:10px; " type="text " class="form-control ">
+      `;
+    if (x == 'color') {
+        document.getElementById('new_product_color').appendChild(div);
+    } else if (x == 'size') {
+        document.getElementById('new_product_size').appendChild(div);
+        }
+    return false
 }

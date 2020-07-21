@@ -288,6 +288,12 @@ form .form-control {
     margin-top: 5px;
 }
 
+.select_file_btn {
+    border-radius: 15px;
+    border: 1px solid #31A13C;
+    background-color: white !important;
+}
+
 
 /* Main page */
 
