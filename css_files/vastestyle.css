@@ -775,10 +775,10 @@ form .form-control {
 /* Feedback page */
 
 .finger {
-    color: #0031FF;
     padding: 0 10px;
     cursor: pointer;
 }
+
 
 .switch {
   position: relative;
@@ -859,3 +859,33 @@ input:checked + .slider:before {
     background-color: #31a13c;
     color: white;
 }
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { 
+    display: none; 
+}
+
+.rating > label:before { 
+  padding: 0 15px;
+  font-size: 2em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f087";
+}
+
+.rating > label { 
+  color: black; 
+ float: right; 
+}
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #0031FF;  } /* hover previous stars in list */
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #0031FF;  } 

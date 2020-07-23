@@ -118,14 +118,16 @@
                         </div>
                         <div class="row" style="margin-top: 1%">
                             <div class="offset-1 col-md-6">
-                                <span><i class="fa fa-thumbs-o-up fa-2x finger"></i></span>
-                                <span><i class="fa fa-thumbs-o-up fa-2x finger"></i></span>
-                                <span><i class="fa fa-thumbs-o-up fa-2x finger"></i></span>
-                                <span><i class="fa fa-thumbs-o-up fa-2x finger"></i></span>
-                                <span><i class="fa fa-thumbs-o-up fa-2x finger"></i></span>
+                                <fieldset class="rating">
+                                    <input type="radio" id="star5" name="rating" value="5" /><label class="full" for="star5" title="Awesome - 5 stars"></label>                            
+                                    <input type="radio" id="star4" name="rating" value="4" /><label class="full" for="star4" title="Pretty good - 4 stars"></label>        
+                                    <input type="radio" id="star3" name="rating" value="3" /><label class="full" for="star3" title="Meh - 3 stars"></label>                        
+                                    <input type="radio" id="star2" name="rating" value="2" /><label class="full" for="star2" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1" name="rating" value="1" /><label class="full" for="star1" title="Sucks big time - 1 star"></label>
+                                </fieldset>
                             </div> 
                         </div>
-                        <hr style="border: 1px solid gray; margin-top: 4%"></hr>
+                        <hr style="border: 1px solid gray; margin-top: 3%"></hr>
                         <div class="row">
                             <div class="offset-1 col-md-6 text-left"><p style="font-weight: bold; font-size: 22px;">Your Feedback</p></div>
                         </div>
@@ -149,8 +151,8 @@
                         <form>
                             <div class="row" style="margin-top: 5%">
                                 <div class="offset-3 col-md-6">
-                                    <input type="file" id="feedback_file" hidden multiple>
-                                    <label for="feedback_file" id="feedback_photo">Add Pictures</label>
+                                    <input type="file" id="feedback_file" accept="image/*" hidden multiple>
+                                    <label for="feedback_file" id="feedback_photo"><i class="fa fa-camera"></i>Add Pictures</label>
                                     
                                 </div>
                             </div>
@@ -195,6 +197,8 @@
             </div>
         </footer>
     </div>
+
+    
 
     <!--Javascript Links-->
     <script src="./main.js"></script>
