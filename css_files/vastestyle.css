@@ -221,6 +221,7 @@ form .form-control {
 .answer_box {
     border-radius: 15px !important;
     border: 1px solid #31A13C !important;
+    background-color: white !important;
 }
 
 .button_box {
@@ -295,6 +296,37 @@ form .form-control {
 
 
 /* Main page */
+.account_btn {
+    background-color: #F6F6F6 !important;
+    border: none !important;
+}
+
+.account_btn:hover:focus {
+    color: black;
+    border: none;
+}
+
+.small_account_window{
+    background-color: #f7f7f7;
+    border-radius: 20px !important;
+    border: 1px solid black !important;
+    box-shadow: 5px 5px 0 #21a13c;
+    width: 230px !important;
+}
+
+.small_account_window_btn {
+    background: transparent linear-gradient(221deg, #FFFFFF 0%, #31A13C 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #31A13C;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 13px;
+    margin-top: 4%;
+}
+
+.small_account_window_btn a {
+    color: black;
+    font-size: 17px;
+}
 
 .view {
     border: none;

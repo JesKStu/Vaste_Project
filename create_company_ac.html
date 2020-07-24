@@ -59,7 +59,32 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="LogInpage.html">Login</a>
-                        <a class="nav-link" href="#" hidden>Account</a>
+                        <div class="btn-group dropleft" style="margin-top: 2px" hidden>
+                            <a class="btn btn-secondary dropdown-toggle account_btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">
+                                Account
+                            </a>
+                            <div class="dropdown-menu small_account_window" aria-labelledby="dropdownMenuLink">
+                                <div class="row">
+                                    <div class="col-md-12 text-center">
+                                        <p style="font-size: 58px; color: #31a13c"><i class="fa fa-user-circle"></i></p>
+                                        <p style="font-weight: bold; font-size: 15px; margin-top: -5%">Firstname Surname</p>
+                                        <p style="font-size: 15px; margin-top: -10px">customer.email@mail.fi</p>
+                                        <hr class="hr_account" style="width: 80%"></hr>
+                                        <div class="small_account_window_btn">
+                                            <a href="my_orders.html" class="account_block_link">...</a>
+                                        </div> <!--Order History / Add new product -->
+                                        <div class="small_account_window_btn">
+                                            <a href="change_customer_ac.html" class="account_block_link">Edit Account</a>
+                                        </div>
+                                        <div class="small_account_window_btn">
+                                            <a href="main.html" class="account_block_link">Back to shop</a>
+                                        </div>
+                                        <div class="small_account_window_btn">
+                                            <a href="#" class="account_block_link">Log out</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                     </li>
                 </ul>
             </div>
