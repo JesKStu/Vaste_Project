@@ -16,306 +16,288 @@
 
 <body style="background-color: #F2F0F0;">
     <!--Top Header-->
-    <div class="container-fluid" style="min-height: 100%;">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="border-color: green;">
+   <div class="container-fluid" style="min-height: 100%;">
+      <nav class="navbar navbar-expand-lg navbar-light">
+         <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="border-color: green;">
 				<span class="navbar-toggler-icon my-toggler"></span>
 			</button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <a class="navbar-brand mr-auto" href="#"><span class="vastelogo"><i>#vastepiste</i></span></a>
-                <a class="nav-item mr-auto" href="#">
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border-radius: 15px !important;">Search</button>
-                    </form>
-                </a>
-                <ul class="navbar-nav mt-2 mt-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="margin-top: -7px">
-                            <span class="heart_cart"><a href="#"><i class="fa fa-heart-o" style="font-size: 30px; margin-left: 15px"></i></a></span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" style="margin-top: -7px">
-                            <span class="heart_cart"><a href="#"><i class="fa fa-cart-arrow-down" style="font-size: 30px; margin-left: 15px"></i></a></span>
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-                            <img src="images/English.jpg" alt="English" class="langicon">
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#"><img src="images/fiflag.jpg" alt="Finnish" class="langicon">&nbsp;Finnish</a>
-                            </a>
-                            <a class="dropdown-item" href="#"><img src="images/flag-Sweden.jpg" alt="Sweden" class="langicon">&nbsp;Swedish</a>
-                            </a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
+         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <a class="navbar-brand mr-auto" href="#"><span class="vastelogo"><i>#vastepiste</i></span></a>
+            <a class="nav-item mr-auto" href="#">
+               <form class="form-inline">
+                  <input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border-radius: 15px !important;">Search
+                  </button>
+               </form>
+            </a>
+            <ul class="navbar-nav mt-2 mt-lg-0">
+               <li class="nav-item">
+                  <a class="nav-link" href="#" style="margin-top: -7px">
+                     <span class="heart_cart"><a href="#"><i class="fa fa-heart-o" style="font-size: 30px; margin-left: 15px"></i></a>
+                     </span>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="#" style="margin-top: -7px">
+                     <span class="heart_cart"><a href="#"><i class="fa fa-cart-arrow-down" style="font-size: 30px; margin-left: 15px"></i></a>
+                     </span>
+                  </a>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                     <img src="images/English.jpg" alt="English" class="langicon">
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                     <a class="dropdown-item" href="#"><img src="images/fiflag.jpg" alt="Finnish" class="langicon">&nbsp;Finnish
+                     </a>       
+                     <a class="dropdown-item" href="#"><img src="images/flag-Sweden.jpg" alt="Sweden" class="langicon">&nbsp;Swedish
+                     </a>
+                  </div>
+               </li>
+               <li class="nav-item">
                         <a class="nav-link" href="customer_service_help_page.html">Customer Service</a>
-                    </li>
-                    <li class="nav-item">
+               </li>
+               <li class="nav-item">
                         <a class="nav-link" href="about_us.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="LogInpage.html">Login</a>
-                        <div class="btn-group dropleft" style="margin-top: 2px" hidden>
-                            <a class="btn btn-secondary dropdown-toggle account_btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">
-                                Account
-                            </a>
-                            <div class="dropdown-menu small_account_window" aria-labelledby="dropdownMenuLink">
-                                <div class="row">
-                                    <div class="col-md-12 text-center">
-                                        <p style="font-size: 58px; color: #31a13c"><i class="fa fa-user-circle"></i></p>
-                                        <p style="font-weight: bold; font-size: 15px; margin-top: -5%">Firstname Surname</p>
-                                        <p style="font-size: 15px; margin-top: -10px">customer.email@mail.fi</p>
-                                        <hr class="hr_account" style="width: 80%"></hr>
-                                        <div class="small_account_window_btn">
-                                            <a href="my_orders.html" class="account_block_link">...</a>
-                                        </div> <!--Order History / Add new product -->
-                                        <div class="small_account_window_btn">
-                                            <a href="change_customer_ac.html" class="account_block_link">Edit Account</a>
-                                        </div>
-                                        <div class="small_account_window_btn">
-                                            <a href="main.html" class="account_block_link">Back to shop</a>
-                                        </div>
-                                        <div class="small_account_window_btn">
-                                            <a href="#" class="account_block_link">Log out</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                    </li>
-                </ul>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="LogInpage.html">Login</a>
+                  <div class="btn-group dropleft" style="margin-top: 2px" hidden>
+                     <a class="btn btn-secondary dropdown-toggle account_btn" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown">Account
+                     </a>
+                     <div class="dropdown-menu small_account_window" aria-labelledby="dropdownMenuLink">
+                        <div class="row">
+                           <div class="col-md-12 text-center">
+                              <p style="font-size: 58px; color: #31a13c"><i class="fa fa-user-circle"></i></p>
+                              <p style="font-weight: bold; font-size: 15px; margin-top: -5%">Firstname Surname</p>
+                              <p style="font-size: 15px; margin-top: -10px">customer.email@mail.fi</p>
+                              <hr class="hr_account" style="width: 80%"></hr>
+                              <div class="small_account_window_btn">
+                                 <a href="my_orders.html" class="account_block_link">...</a>
+                              </div> <!--Order History / Add new product -->
+                              <div class="small_account_window_btn">
+                                 <a href="change_customer_ac.html" class="account_block_link">Edit Account</a>
+                              </div>
+                              <div class="small_account_window_btn">
+                                 <a href="main.html" class="account_block_link">Back to shop</a>
+                              </div>
+                              <div class="small_account_window_btn">
+                                 <a href="#" class="account_block_link">Log out</a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!--Categoties-->
+      <div class="row" style="margin-top: 2%">
+         <div class="col-md-3 all_categories_nav" padding: 10px; " onclick="alert( 'hi')">
+            <h4 style="color:white">All Categories</h4>
+         </div>
+         <div class="col-md-9 " style="padding: 10px; background-color: white">
+            <div class="row ">
+               <div class="col-md-2 category_nav ">Category #1</div>
+                  <div class="col-md-2 category_nav ">Category #2</div>
+                  <div class="col-md-2 category_nav ">Category #3</div>
+                  <div class="col-md-2 category_nav ">Category #4</div>
+               </div>
             </div>
-        </nav>
-        <!--Categoties-->
-        <div class="row" style="margin-top: 2%">
-            <div class="col-md-12 col-sm-12">
-                <div class="row">
-                    <div class="col-md-3 all_categories_nav" padding: 10px; " onclick="alert( 'hi') ">
-                        <h4 style="color:white">All Categories</h4>
-                    </div>
-                    <div class="col-md-9 " style="padding: 10px; background-color: white ">
-                        <div class="row ">
-                            <div class="col-md-2 category_nav ">Category #1</div>
-                            <div class="col-md-2 category_nav ">Category #2</div>
-                            <div class="col-md-2 category_nav ">Category #3</div>
-                            <div class="col-md-2 category_nav ">Category #4</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 ">
-                <div class="filters_block"> <!-- onclick(show_filters)-->
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p style="color: white; font-size: 23px; margin-left: 20%; margin-top: 4%"><i class="fa fa-align-left"></i>Filters</p>
-                        </div>
-                        <!--
-                        <div class="col-md-6">
-                            <button type="button" class="filter_btn">Clear All</button>
-                        </div>
-                    -->
-                    </div>
-                </div>
-                <div class="select-box" id="select-box"> <!--style="display: none;"-->
-                    <div class="options-container">
-                        <div class="option">
-                            <input type="radio" class="radio" id="company_A" name="category" />
-                            <label for="company_A">Company A</label>
-                        </div>
-
-                        <div class="option">
-                            <input type="radio" class="radio" id="company_B" name="category" />
-                            <label for="company_B">Company B</label>
-                        </div>
-
-                        <div class="option">
-                            <input type="radio" class="radio" id="company_C" name="category" />
-                            <label for="company_C">Company C</label>
-                        </div>
-
-                        <div class="option">
-                            <input type="radio" class="radio" id="company_D" name="category" />
-                            <label for="company_D">Company D</label>
-                        </div>
-
-                        <div class="option">
-                            <input type="radio" class="radio" id="company_E" name="category" />
-                            <label for="company_E">Company E</label>
-                        </div>
-
-                        <div class="option">
-                            <input type="radio" class="radio" id="company_F" name="category" />
-                            <label for="company_F">Company F</label>
-                        </div>
-
-                        <div class="option">
-                            <input type="radio" class="radio" id="company_G" name="category" />
-                            <label for="company_G">Company G</label>
-                        </div>
-
-                        <div class="option">
-                            <input type="radio" class="radio" id="company_H" name="category" />
-                            <label for="company_H">Company H</label>
-                        </div>
-
-                        <div class="option">
-                            <input type="radio" class="radio" id="company_I" name="category" />
-                            <label for="company_I">Company I</label>
-                        </div>
-                    </div>
-
-                    <div class="selected">
-                        Select Company
-                    </div>
-
-                    <div class="search-box">
-                        <input type="text" placeholder="Start Typing..." />
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-9" style="margin-top: 20px">
-                <button class="view" onclick="listView()"><i class="fa fa-bars"></i></button>
-                <button class="view" onclick="gridView()"><i class="fa fa-th-large"></i></button>
-
-                <div class="btn-group sort_by_btn">
-                    <button type="button" class="btn btn-success dropdown-toggle text-left" data-toggle="dropdown">
+         </div>
+      </div><!--class="row" style="margin-top: 2%"-->
+      <div class="row">
+         <div class="col-md-3">
+            <div class="filters_block"> <!-- onclick(show_filters)-->
+               <div class="row">
+                  <div class="col-md-6">
+                     <p style="color: white; font-size: 23px; margin-left: 20%; margin-top: 4%"><i class="fa fa-align-left"></i>Filters</p>
+                  </div>
+                     <!--<div class="col-md-6">
+                        <button type="button" class="filter_btn">Clear All</button>
+                     </div>-->
+               </div>
+            </div><!--class="filters_block"-->
+            <div class="select-box" id="select-box"> <!--style="display: none;"-->
+               <div class="options-container">
+                  <div class="option">
+                     <input type="radio" class="radio" id="company_A" name="category" />
+                     <label for="company_A">Company A</label>
+                  </div>
+                  <div class="option">
+                     <input type="radio" class="radio" id="company_B" name="category" />
+                     <label for="company_B">Company B</label>
+                  </div>
+                  <div class="option">
+                     <input type="radio" class="radio" id="company_C" name="category" />
+                     <label for="company_C">Company C</label>
+                  </div>
+                  <div class="option">
+                     <input type="radio" class="radio" id="company_D" name="category" />
+                     <label for="company_D">Company D</label>
+                  </div>
+                  <div class="option">
+                     <input type="radio" class="radio" id="company_E" name="category" />
+                     <label for="company_E">Company E</label>
+                  </div>
+                  <div class="option">
+                     <input type="radio" class="radio" id="company_F" name="category" />
+                     <label for="company_F">Company F</label>
+                  </div>
+                  <div class="option">
+                     <input type="radio" class="radio" id="company_G" name="category" />
+                     <label for="company_G">Company G</label>
+                  </div>
+                  <div class="option">
+                     <input type="radio" class="radio" id="company_H" name="category" />
+                     <label for="company_H">Company H</label>
+                  </div>
+                  <div class="option">
+                     <input type="radio" class="radio" id="company_I" name="category" />
+                     <label for="company_I">Company I</label>
+                  </div>
+               </div><!--class="options-container"-->
+               <div class="selected">
+                  Select Company
+               </div>
+               <div class="search-box">
+                  <input type="text" placeholder="Start Typing..." />
+               </div>
+            </div><!--class="select-box" id="select-box"-->
+         </div><!--class="col-md-3 "-->  
+         <div class="col-md-9" style="margin-top: 20px">
+            <button class="view" onclick="listView()"><i class="fa fa-bars"></i></button>
+            <button class="view" onclick="gridView()"><i class="fa fa-th-large"></i></button>
+            <div class="btn-group sort_by_btn">
+            <button type="button" class="btn btn-success dropdown-toggle text-left" data-toggle="dropdown">
 					  Sort by:
-					</button>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">price low to high</a>
-                        <a class="dropdown-item" href="#">price high to low</a>
-                        <a class="dropdown-item" href="#">novetly new to old</a>
-                        <a class="dropdown-item" href="#">novetly old to new</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Customer choice</a>
-                    </div>
-                </div>
-
-                <div class="product_block">
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                </div>
-                <div>
-                    <button type="button" class="btn btn-lg show_more_btn">Show more<i class="fa fa-refresh" style="padding: 5px;"></i></button>
-                </div>
-                <nav>
-                    <ul class="pagination justify-content-center pagination_btn">
-                        <li class="page-item disabled">
-                            <a class="page-link" href="#" tabindex="-1">Previous</a>
-                        </li>
-                        <li class="page-item"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item">
-                            <a class="page-link" href="#">Next</a>
-                        </li>
-                    </ul>
-                </nav>
-                <p style="margin-top: 40px; font-size: 20px;">Recently Viewed</p>
-                <div class="recently_viewed">
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-                    <div class="column">
-                        <div class="card">..</div>
-                    </div>
-
-
-                </div>
-
+				</button>
+               <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">price low to high</a>
+                  <a class="dropdown-item" href="#">price high to low</a>
+                  <a class="dropdown-item" href="#">novetly new to old</a>
+                  <a class="dropdown-item" href="#">novetly old to new</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Customer choice</a>
+               </div>
+         </div><!--class="col-md-9" style="margin-top: 20px"-->
+         <div class="product_block">
+            <div class="column">
+               <div class="card">..</div>
             </div>
-
-        </div>
-
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+            <div class="column">
+               <div class="card">..</div>
+            </div>
+             <div class="column">
+               <div class="card">..</div>
+            </div>
+         </div><!--class="product_block"-->
+         <div>
+            <button type="button" class="btn btn-lg show_more_btn">Show more<i class="fa fa-refresh" style="padding: 5px;"></i></button>
+         </div>
+            <nav>
+               <ul class="pagination justify-content-center pagination_btn">
+                  <li class="page-item disabled">
+                     <a class="page-link" href="#" tabindex="-1">Previous</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                     <a class="page-link" href="#">Next</a>
+                  </li>
+               </ul>
+            </nav>
+            <p style="margin-top: 40px; font-size: 20px;">Recently Viewed</p>
+            <div class="recently_viewed">
+               <div class="column">
+                  <div class="card">..</div>
+               </div>
+               <div class="column">
+                  <div class="card">..</div>
+               </div>
+               <div class="column">
+                  <div class="card">..</div>
+               </div>
+               <div class="column">
+                  <div class="card">..</div>
+               </div>
+      </div><!-- class="row"-->
+   </div><!--class="row" style="margin-top: 2%"-->
         <!-- Footer -->
-        <footer class="page-footer font-small pt-4" style="margin-top: 230px; background-color: #312B2B; margin-left: -15px; margin-right: -15px; color: white">
-            <div class="container-fluid text-center text-md-left">
-                <div class="row">
-                    <div class="col-md-5 mt-md-0 mt-3">
-                        <h6 class="text-uppercase ">Footer Content</h6>
-                        <p style="font-size: 12px ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                    <div class="col-md-1"></div>
-                    <hr class="clearfix w-100 d-md-none pb-3">
-                    <div class="col-md-3 mb-md-0 mb-3 col-sm-6">
-                        <h6 class="text-uppercase ">Contact Us</h6>
-                        <ul class="list-unstyled">
-                            <li><a href="#!">Link 1</a></li>
-                            <li><a href="#!">Link 2</a></li>
-                            <li><a href="#!">Link 3</a></li>
-                            <li><a href="#!">Link 4</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 mb-md-0 mb-3 col-sm-6">
-                        <h6 class="text-uppercase">Policies & Info</h6>
-                        <ul class="list-unstyled">
-                            <li><a href="#!">Link 1</a></li>
-                            <li><a href="#!">Link 2</a></li>
-                            <li><a href="#!">Link 3</a></li>
-                            <li><a href="#!">Link 4</a></li>
-                        </ul>
-                    </div>
-                </div>
+      <footer class="page-footer font-small pt-4" style="margin-top: 230px; background-color: #312B2B; margin-left: -15px; margin-right: -15px; color: white">
+         <div class="container-fluid text-center text-md-left">
+            <div class="row">
+               <div class="col-md-5 mt-md-0 mt-3">
+                  <h6 class="text-uppercase ">Footer Content</h6>
+                     <p style="font-size: 12px ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                     </p>
+               </div>
+               <div class="col-md-1"></div>
+               <hr class="clearfix w-100 d-md-none pb-3">
+               <div class="col-md-3 mb-md-0 mb-3 col-sm-6">
+                  <h6 class="text-uppercase ">Contact Us</h6>
+                  <ul class="list-unstyled">
+                     <li><a href="#!">Link 1</a></li>
+                     <li><a href="#!">Link 2</a></li>
+                     <li><a href="#!">Link 3</a></li>
+                      <li><a href="#!">Link 4</a></li>
+                  </ul>
+               </div>
+                  <div class="col-md-3 mb-md-0 mb-3 col-sm-6">
+                     <h6 class="text-uppercase">Policies & Info</h6>
+                     <ul class="list-unstyled">
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                     </ul>
+                  </div>
             </div>
-        </footer>
-    </div>
+         </div>
+      </footer>
+   </div><!--class="container-fluid" style="min-height: 100%;"-->
 
     <!--Javascript Links-->
     <script>
