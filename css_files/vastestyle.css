@@ -265,8 +265,10 @@ form .form-control {
     border: none;
 }
 
-.card-header {
-    background-color:  #F7F7F7 !important;
+.card-header_info {
+    background-color:  #F7F7F7;
+    margin-top: 2%
+
 }
 
 
