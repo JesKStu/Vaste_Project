@@ -47,6 +47,38 @@
     height: 22px;
 }
 
+.account_btn {
+    background-color: #F6F6F6 !important;
+    border: none !important;
+}
+
+.account_btn:hover:focus {
+    color: black;
+    border: none;
+}
+
+.small_account_window{
+    background-color: #f7f7f7;
+    border-radius: 20px !important;
+    border: 1px solid black !important;
+    box-shadow: 5px 5px 0 #21a13c;
+    width: 230px !important;
+}
+
+.small_account_window_btn {
+    background: transparent linear-gradient(221deg, #FFFFFF 0%, #31A13C 100%) 0% 0% no-repeat padding-box;
+    border: 1px solid #31A13C;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 13px;
+    margin-top: 4%;
+}
+
+.small_account_window_btn a {
+    color: black;
+    font-size: 17px;
+}
+
 /*Footer */
 
 footer ul li a {
@@ -296,15 +328,28 @@ form .form-control {
     background-color: #31A13C;
     padding: 10px 10px;
     margin-left: 20px;
-    margin-right: -20px;
+    margin-right: -50px;
     border-radius: 8px;
     cursor: pointer;
 }
 
-.category_nav {
-    font-size: 17px;
-    margin-top: 5px;
+.category_nav a {
+   color: black;
+   font-size: 20px;
 }
+
+.category_nav a:hover {
+    color: #31A13C;
+}
+
+.category_nav:hover {
+	transform: scale(1.5);
+}
+
+.category_nav{
+	padding-top: 1%;
+}
+
 
 .sort_by_btn {
     border: 1px solid #31A13C;
@@ -315,13 +360,37 @@ form .form-control {
     margin-left: 70%;
 }
 
+.sort_by_window{
+    background-color: #f7f7f7;
+    border-radius:8px !important;
+    border: 1px solid black !important;
+    box-shadow: 5px 5px 0 #21a13c;
+    width: 200px !important;
+    background: transparent linear-gradient(221deg, #FFFFFF 0%, #31A13C 100%) 0% 0% no-repeat padding-box;
+}
+
+.sort_by_window a {
+    color: black;
+    font-size: 17px;
+}
+
+.sort_item:hover {
+	transform: scale(1.07);
+}
+
+.way {
+	color: #b4b4b4;
+	margin-top: 2%;
+	margin-left: 5%;
+	font-size: 17px;
+}
+
 .product_block {
-    margin-top: 10px;
-    margin-right: 20px;
-    background-color: white;
-    height: 75%;
-    box-shadow: 0px 4px 4px 4px #888888;
-    border-radius: 3px;
+	margin: 1% 5% 0 2%;
+   background-color: white;
+   height: 900px;
+   box-shadow: 0px 4px 4px 4px #888888;
+   border-radius: 3px;
 }
 
 .column {
@@ -340,157 +409,103 @@ form .form-control {
     height: 170px;
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-}
-
 .column:hover {
     transform: scale(1.4);
 }
 
 .show_more_btn {
-    margin-top: 15px;
-    background-color: #FFFFFF;
-    height: 60px;
-    width: 98.3%;
-    box-shadow: 0px 4px 4px 4px #888888;
+	margin: 3% 5% 0 2%;
+   background-color: #FFFFFF;
+   height: 60px;
+   width: 100%;
+   box-shadow: 0px 4px 4px 4px #888888;
+   border: 1px solid #fff;
+   font-size: 20px;
 }
 
-.pagination_btn {
-    margin-top: 20px;
+.pages {
+	margin-left: 36%;
+	margin-top: 3%;
+}
+
+.page-item {
+	color: black;
+}
+
+.pagination {
     font-size: 19px;
-    margin-right: 5%;
 }
 
 .pagination a:active {
     background-color: #31A13C;
-    color: black;
 }
 
 .pagination a:hover {
     background-color: #31A13C;
-    color: black;
+    color: white;
 }
 
-.recently_viewed {
-    margin-top: 10px;
-    margin-right: 20px;
-    background-color: white;
-    box-shadow: 0px 4px 4px 4px #888888;
-    border-radius: 3px;
-    height: 19%;
+.filter-group {
+	margin-top: 2%;
+   background-color: #31A13C;
+   color: white;
+   border-radius: 8px;
+ }
+
+ .card-header {
+   padding: 0.75rem 1.25rem;
 }
 
-.select-box {
-    position: relative;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    margin-top: 50px;
+.title {
+ 	color: white;
+ 	font-size: 17px;
 }
 
-.select-box .options-container {
-    background: white;
-    color: black;
-    max-height: 0;
-    width: 100%;
-    opacity: 0;
-    transition: all 0.4s;
-    border-radius: 8px;
-    overflow: hidden;
-    order: 1;
-    border: 1px solid #31A13C;
+.filter-content {
+	background-color: white;
+	color: black;
 }
 
-.selected {
-    background: #289433;
-    border-radius: 8px;
-    margin-bottom: 8px;
-    color: #f5f6fa;
-    position: relative;
-    order: 0;
-    font-weight: bold;
+.icon-control {
+   margin-top: 6px;
+   float: right;
+   font-size: 80%;
+   color: white;
+ }
+
+.box_inside{
+	border: 1px solid black; 
+	height: 180px ;
+	overflow-y: scroll;
+	overflow-x: none;
+} 
+
+.search_inside {
+	padding: 5px 2px;
 }
 
-.selected::after {
-    content: "";
-    background-size: contain;
-    background-repeat: no-repeat;
-    position: absolute;
-    height: 100%;
-    width: 32px;
-    right: 10px;
-    top: 5px;
-    transition: all 0.4s;
+ .list-menu {
+    list-style: none;
+    padding-left: 3%;
+ }
+
+.list-menu li {
+	padding-top: 10px;
+	font-size: 17px;
 }
 
-.select-box .options-container.active {
-    max-height: 240px;
-    opacity: 1;
-    overflow-y: scroll;
-    margin-top: 54px;
+.clear {
+	float: right;
+	height: 30px;
+	width: 70px;
+	background-color: #ccc;
 }
 
-.select-box .options-container.active+.selected::after {
-    transform: rotateX(180deg);
-    top: -6px;
-}
 
-.select-box .options-container::-webkit-scrollbar {
-    width: 8px;
-    background: #2f3640;
-    border-radius: 0 8px 8px 0;
-}
 
-.select-box .options-container::-webkit-scrollbar-thumb {
-    background: #289433;
-    border-radius: 0 8px 8px 0;
-}
 
-.select-box .option,
-.selected {
-    padding: 12px 24px;
-    cursor: pointer;
-}
 
-.select-box .option:hover {
-    background: #289433;
-}
 
-.select-box label {
-    cursor: pointer;
-}
-
-.select-box .option .radio {
-    display: none;
-}
-
-.search-box input {
-    width: 100%;
-    padding: 12px 16px;
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    position: absolute;
-    border-radius: 8px 8px 0 0;
-    z-index: 100;
-    border: 8px solid #2f3640;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.4s;
-}
-
-.search-box input:focus {
-    outline: none;
-}
-
-.select-box .options-container.active~.search-box input {
-    opacity: 1;
-    pointer-events: auto;
-}
 
 
 /* My Orders */
