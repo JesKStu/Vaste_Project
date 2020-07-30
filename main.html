@@ -106,9 +106,9 @@
 	             </div>
 	        </div>
 	    </div><!--class="row" style="margin-top: 2%"-->
-	    <div class="row">
+	   <div class="row">
 	    	<div class="col-md-3">
-	    		<p class="way">Home / Shop / Summer / ...</p>
+	    		<p class="way">Some text / Some text / More text / ...</p>
 	    		<article class="filter-group" style="margin-top: 10%; margin-right: 3%;">
                     <header class="card-header"> 
                      	<a href="#" data-toggle="collapse" data-target="#category_search" class="collapsed"> 
@@ -210,22 +210,20 @@
 	    	<div class="col-md-9">
 	    		<div class="row" style="margin-top: 3%">
 		    		<button class="view" onclick="listView()"><i class="fa fa-bars"></i></button>
-		            <button class="view" onclick="gridView()"><i class="fa fa-th-large"></i></button>
-		            <div class="btn-group sort_by_btn">
-			            <button type="button" class="btn btn-success dropdown-toggle text-left" data-toggle="dropdown">
-								  Sort by:
-						</button>
-			            <div class="dropdown-menu sort_by_window">
-			              	<a class="dropdown-item sort_item" href="#">price low to high</a>
-			                <a class="dropdown-item sort_item" href="#">price high to low</a>
-			                <a class="dropdown-item sort_item" href="#">novetly new to old</a>
-			                <a class="dropdown-item sort_item" href="#">novetly old to new</a>
-			                <div class="dropdown-divider"></div>
-			                <a class="dropdown-item sort_item" href="#">Customer choice</a>
-			            </div>
+		         <button class="view" onclick="gridView()"><i class="fa fa-th-large"></i></button>
+		         <div class="btn-group sort_by_btn">
+			         <button type="button" class="btn btn-success dropdown-toggle text-left" data-toggle="dropdown">Sort by:</button>
+			         <div class="dropdown-menu sort_by_window">
+			            <a class="dropdown-item sort_item" href="#">price low to high</a>
+			            <a class="dropdown-item sort_item" href="#">price high to low</a>
+			            <a class="dropdown-item sort_item" href="#">novetly new to old</a>
+			            <a class="dropdown-item sort_item" href="#">novetly old to new</a>
+			            <div class="dropdown-divider"></div>
+			            <a class="dropdown-item sort_item" href="#">Customer choice</a>
+			         </div>
 		        	</div>
-	            	<div class="row">
-			            <div class="product_block">
+	            <div class="row">
+			         <div class="product_block">
 				            <div class="column">
 				               <div class="card">..</div>
 				            </div>
@@ -273,29 +271,53 @@
 				            </div>
 				            <div class="column">
 				               <div class="card">..</div>
-		        			</div>
-		    			</div><!--class="product_block"-->					   
-					     <button type="button" class="show_more_btn">Show more<i class="fa fa-refresh" style="padding: 5px"></i></button>
-					     <nav class="pages">
-			               <ul class="pagination">
-			                  <li class="page-item">
-			                     <a class="page-link" href="#" tabindex="-1">Previous</a>
-			                  </li>
-			                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-			                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-			                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-			                  <li class="page-item">
-			                     <a class="page-link" href="#">Next</a>
-			                  </li>
-			               </ul>
-			            </nav>
-			            
-	    			</div>
+		        				</div>
+		        		</div>
+		        		<div class="show_more text-center">
+		        			<button type="button" class="show_more_btn">Show more<i class="fa fa-refresh" style="padding: 5px"></i></button>
+		        		</div>					   
+					   
+					   <div class="pages">
+					   	<nav>
+				            <ul class="pagination">
+				               <li class="page-item">
+				                  <a class="page-link" href="#" tabindex="-1">Previous</a>
+				               </li>
+				               <li class="page-item"><a class="page-link" href="#">1</a></li>
+				               <li class="page-item"><a class="page-link" href="#">2</a></li>
+				               <li class="page-item"><a class="page-link" href="#">3</a></li>
+				               <li class="page-item">
+				                  <a class="page-link" href="#">Next</a>
+				               </li>
+				            </ul>
+				         </nav>	
+					   </div>
+			      </div>
 	    		</div>	
-		    </div><!--class="col-md-9"-->	  
+		   </div><!--class="col-md-9"-->
+		</div>
+		<div class="row">
+			<div class="col-md-9 offset-3">
+				<p style="font-size: 23px">Recently Viewed</p>
+				<div class="recently_viewed">
+				   <div class="column">
+				      <div class="card">..</div>
+				   </div>
+				   <div class="column">
+				      <div class="card">..</div>
+				   </div>
+				   <div class="column">
+	            	<div class="card">..</div>
+				   </div>
+				   <div class="column">
+				      <div class="card">..</div>
+				   </div>       
+		       </div>
+			</div>
+		</div>	  
 
 	        <!-- Footer -->
-	      <footer class="page-footer font-small pt-4" style="margin-top: 100px; background-color: #312B2B; color: white;">
+	      <footer class="page-footer font-small pt-4" style="margin-top: 100px; margin-left: -15px; margin-right: -15px; background-color: #312B2B; color: white;">
 	         <div class="container-fluid text-center text-md-left">
 	            <div class="row">
 	               <div class="col-md-5 mt-md-0 mt-3">
