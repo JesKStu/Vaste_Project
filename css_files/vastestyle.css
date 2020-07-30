@@ -375,8 +375,8 @@ form .form-control {
     border-radius:8px !important;
     border: 1px solid black !important;
     box-shadow: 5px 5px 0 #21a13c;
-    width: 200px !important;
-    background: transparent linear-gradient(221deg, #FFFFFF 0%, #31A13C 100%) 0% 0% no-repeat padding-box;
+    width: 100% !important;
+   
 }
 
 .sort_by_window a {
@@ -385,7 +385,9 @@ form .form-control {
 }
 
 .sort_item:hover {
+	background: transparent linear-gradient(221deg, #FFFFFF 0%, #31A13C 100%) 0% 0% no-repeat padding-box;
 	transform: scale(1.07);
+	border-radius: 8px;
 }
 
 .way {
@@ -476,6 +478,16 @@ form .form-control {
 .filter-content {
 	background-color: white;
 	color: black;
+	border-radius: 8px;
+	box-shadow: 0px 4px 4px 4px #888888;
+}
+
+.card-body{
+	height: 250px;
+}
+
+.price-body {
+	height: 190px !important;
 }
 
 .icon-control {
@@ -508,6 +520,7 @@ form .form-control {
 
 .clear {
 	float: right;
+	margin-top: 3%;
 	height: 30px;
 	width: 70px;
 	background-color: #ccc;
