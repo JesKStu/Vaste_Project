@@ -532,6 +532,7 @@ form .form-control {
 	height: 30px;
 	width: 70px;
 	background-color: #ccc;
+	border-radius: 8px;
 }
 
 .recently_viewed {
