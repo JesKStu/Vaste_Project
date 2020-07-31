@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 </head>
 
 <body>
@@ -117,21 +118,56 @@
                <hr style="margin-top: 20px;"></hr>
                <!--Block-->
                <div style="height: 750px;">
-                  <div class="orders_block">
-                     <div class="row">
-                        
-								<div class="col-md-4"><img src="./images/placeholder.png" class="product_img_orders"></div>
-								<div class="col-md-4">
-                           <p style="font-weight: bold; font-size: 23px;" class="text-left">Product name</p>
-                           <p class="text-left">Color, Size, Unit</p>
-                           <p style="font-weight: bold; font-size: 20px;" class="text-left">Price XXX</p>
+                  <div class="row">
+                    <aside class="col-lg-12 orders_block">
+                        <div>
+                            <table class="table table-borderless table-shopping-cart">
+                                <thead class="text-muted">
+                                    <tr class="small text-uppercase">
+                                        <th scope="col">Product</th>
+                                        <th scope="col" width="120">Quantity</th>
+                                        <th scope="col" width="120">Price</th>
+                                        <th scope="col" class="text-right" width="200"> </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <figure class="itemside align-items-center">
+                                                <div><img src="./images/placeholder.png" class="img-sm"></div>
+                                                <figcaption class="info">
+                                                    <a href="#" class="title text-dark">Product Name</a>
+                                                    <p class="text-muted small">Some text <br> Some text</p>
+                                                </figcaption>
+                                            </figure>
+                                        </td>
+                                        <td> 
+                                            <select class="form-control">
+                                                <option>1</option>
+                                                <option>2</option>  
+                                                <option>3</option>  
+                                                <option>4</option>  
+                                            </select> 
+                                        </td>
+                                        <td> 
+                                            <div class="price-wrap"> 
+                                                <var class="price">$XXX</var> 
+                                                <small class="text-muted"> $XXX each </small> 
+                                            </div> <!-- price-wrap .// -->
+                                        </td>
+                                        <td class="text-right"> 
+                                            <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip"> <i class="fa fa-heart"></i></a> 
+                                            <a href="" class="btn btn-light"> Remove</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-							    <div class="col-md-4"> 
-                           <a href="order_information.html"><i class="fa fa-chevron-right fa-2x chevron"></i></a>
-                        </div>
+                    </aside>
 
-                     </div><!--class="row"-->      
-                  </div><!--class="orders_block"-->     
+                    
+
+
                </div> <!--style="height: 750px;"-->  
             </div> <!--col-md-12 col-sm-12 text-center-->
          </div> <!--col-md-6 col-sm-12 main_block-->
@@ -172,6 +208,7 @@
    </div><!--class="container-fluid"-->
 
     <!--Javascript Links-->
+
     <script src="./main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
