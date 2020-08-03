@@ -67,7 +67,7 @@
                      		</a>
                      		<div class="dropdown-menu small_account_window" aria-labelledby="dropdownMenuLink">
                         		<div class="row">
-                           			<div class="col-md-12 text-center">
+                           			<div class="col-12 text-center">
 			                            <p style="font-size: 58px; color: #31a13c"><i class="fa fa-user-circle"></i></p>
 			                            <p style="font-weight: bold; font-size: 15px; margin-top: -5%">Firstname Surname</p>
 			                            <p style="font-size: 15px; margin-top: -10px">customer.email@mail.fi</p>
@@ -94,20 +94,20 @@
       	</nav>
       <!--Categoties-->
 	    <div class="row" style="margin-top: 2%">
-	        <div class="col-md-3 all_categories_nav" onclick="alert('hi')">
+	        <div class="col-3 all_categories_nav d-none d-md-block" onclick="alert('hi')">
 	            <h4 style="color:white">All Categories</h4>
 	        </div>
-	        <div class="col-md-9" style="background-color: white; border-radius: 0 8px 8px 0">
+	        <div class="col-9 d-none d-md-block" style="background-color: white; border-radius: 0 8px 8px 0">
 	            <div class="row">
-	               	<div class="col-md-2 offset-1 category_nav"><a href="#">Category #1</a></div>
-	                <div class="col-md-2 category_nav"><a href="#">Category #2</a></div>
-	                <div class="col-md-2 category_nav"><a href="#">Category #3</a></div>
-	                <div class="col-md-2 category_nav"><a href="#">Category #4</a></div>
+	               	<div class="col-2 offset-1 category_nav"><a href="#">Category #1</a></div>
+	                <div class="col-2 category_nav"><a href="#">Category #2</a></div>
+	                <div class="col-2 category_nav"><a href="#">Category #3</a></div>
+	                <div class="col-2 category_nav"><a href="#">Category #4</a></div>
 	             </div>
 	        </div>
 	    </div><!--class="row" style="margin-top: 2%"-->
 	   <div class="row">
-	    	<div class="col-md-3">
+	    	<div class="col-md-3 col-sm-12 col-xs-12">
 	    		<p class="way">Some text / Some text / More text / ...</p>
 	    		<article class="filter-group" style="margin-top: 10%; margin-right: 3%;">
                     <header class="card-header"> 
@@ -158,9 +158,9 @@
                          		<form class="search_inside form-inline my-2 my-lg-0">
 								    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="background-color: #ccc; border-radius: 3px !important; width: 100%; margin-left: 2%">
 								</form>
-                         		<ul class="list-menu">
-	                                <li>
-	                                 	<input type="checkbox">
+                        <ul class="list-menu">
+	                         <li>
+	                             	<input type="checkbox">
 										<span class="checkmark">Company A</span>
 									</li>
 									<li>
@@ -192,11 +192,11 @@
                          <div class="card-body price-body"> 
                          	<input type="range" class="custom-range" min="0" max="1000000" name="">
                             <div class="form-row">
-                                <div class="form-group col-md-6"> 
+                                <div class="form-group col-6"> 
                                  	<label>Min</label> 
                                  	<input class="form-control" placeholder="$0" type="number"> 
                                 </div>
-                                <div class="form-group text-right col-md-6"> 
+                                <div class="form-group text-right col-6"> 
                                  	<label>Max</label> 
                                  	<input class="form-control" placeholder="$1,0000" type="number"> 
                                 </div>
@@ -207,7 +207,7 @@
                      </div>
                  </article>
 	    	</div><!--class="col-md-3"-->
-	    	<div class="col-md-9">
+	    	<div class="col-md-9 col-sm-12 col-xs-12">
 	    		<div class="row" style="margin-top: 3%">
 		    		<button class="view" onclick="listView()"><i class="fa fa-bars"></i></button>
 		         <button class="view" onclick="gridView()"><i class="fa fa-th-large"></i></button>
@@ -297,7 +297,8 @@
 		   </div><!--class="col-md-9"-->
 		</div>
 		<div class="row">
-			<div class="col-md-9 offset-3">
+			<div class="col-3 d-none d-md-block"></div>
+			<div class="col-md-9 col-sm-12 col-xs-12">
 				<p style="font-size: 23px">Recently Viewed</p>
 				<div class="recently_viewed">
 				   <div class="column">
