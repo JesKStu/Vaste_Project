@@ -18,31 +18,33 @@
     <!--Top Header-->
     <div class="container-fluid" style="height: 100%; overflow-x: hidden;">
     	<nav class="navbar navbar-expand-lg navbar-light">
+			<!--Nav Button-->
          	<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation" style="border-color: green;">
 				<span class="navbar-toggler-icon my-toggler"></span>
 			</button>
         	 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             	<a class="navbar-brand mr-auto" href="#"><span class="vastelogo"><i>#vastepiste</i></span></a>
             	<a class="nav-item mr-auto" href="#">
-               		<form class="form-inline">
+               		<form class="form-inline"> <!--Search Section-->
                   		<input class="form-control mr-sm-1" type="search" placeholder="Search" aria-label="Search">
                   		<button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="border-radius: 15px !important;">Search
                   		</button>
                		</form>
             	</a>
            	 	<ul class="navbar-nav mt-2 mt-lg-0">
-	               <li class="nav-item">
+	               <li class="nav-item"> <!--Heart Icon for favourite product-->
 	                  	<a class="nav-link" href="#" style="margin-top: -7px">
                      		<span class="heart_cart"><a href="#"><i class="fa fa-heart-o" style="font-size: 30px; margin-left: 15px"></i></a>
                      		</span>
                   		</a>
                		</li>
-               		<li class="nav-item">
+               		<li class="nav-item"> <!--cart icon-->
                   		<a class="nav-link" href="#" style="margin-top: -7px">
                      		<span class="heart_cart"><a href="#"><i class="fa fa-cart-arrow-down" style="font-size: 30px; margin-left: 15px"></i></a>
                      		</span>
                   		</a>
-               		</li>
+					   </li>
+					    <!--Languages list-->
                		<li class="nav-item dropdown">
 	                  	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
 	                     	<img src="images/English.jpg" alt="English" class="langicon">
@@ -53,7 +55,8 @@
 	                     	<a class="dropdown-item" href="#"><img src="images/flag-Sweden.jpg" alt="Sweden" class="langicon">&nbsp;Swedish
 	                     	</a>
                   		</div>
-               		</li>
+					   </li>
+					   <!--Link to Customer Service, About Us and LogIn pages-->
                		<li class="nav-item">
                         <a class="nav-link" href="customer_service_help_page.html">Customer Service</a>
                		</li>
@@ -111,18 +114,18 @@
 	    		<p class="way">Some text / Some text / More text / ...</p>
 	    		<article class="filter-group" style="margin-top: 10%; margin-right: 3%;">
                     <header class="card-header"> 
-                     	<a href="#" data-toggle="collapse" data-target="#category_search" class="collapsed"> 
-                     		<i class="icon-control fa fa-chevron-down"></i>
+                     	<a href="#" data-toggle="collapse" data-target="#category_search" class="collapsed"> <!-- show and hide content-->
+                     		<i class="icon-control fa fa-chevron-down"></i> <!-- down icon-->
                             <h6 class="title">Category</h6>
                         </a> 
                     </header>
-                    <div class="filter-content collapse" id="category_search">
+                    <div class="filter-content collapse" id="category_search"> <!-- Category Filter -->
                          <div class="card-body">
                          	<div class="box_inside">
                          		<form class="search_inside form-inline my-2 my-lg-0">
 								      	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="background-color: #ccc; border-radius: 3px !important; width: 100%; margin-left: 2%">
 								 		</form>
-                         		<ul class="list-menu">
+                         		<ul class="list-menu"> <!-- Category List-->
 	                              <li>
 			                           <input type="checkbox">
 												<span class="checkmark">Some Text</span>
@@ -145,10 +148,10 @@
                         </div>
                     </div>
                  </article>
-                 <article class="filter-group" style="margin-right: 3%">
+                 <article class="filter-group" style="margin-right: 3%"> <!-- Company filter-->
                     <header class="card-header"> 
-                     	<a href="#" data-toggle="collapse" data-target="#company_search" class="collapsed">
-                     		<i class="icon-control fa fa-chevron-down"></i>
+                     	<a href="#" data-toggle="collapse" data-target="#company_search" class="collapsed"> <!-- show and hide content-->
+                     		<i class="icon-control fa fa-chevron-down"></i> <!-- Down icon-->
                             <h6 class="title">Company</h6>
                          </a> 
                     </header>
@@ -158,7 +161,7 @@
                          		<form class="search_inside form-inline my-2 my-lg-0">
 								    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" style="background-color: #ccc; border-radius: 3px !important; width: 100%; margin-left: 2%">
 								</form>
-                        <ul class="list-menu">
+                        <ul class="list-menu"> <!-- Company List-->
 	                         <li>
 	                             	<input type="checkbox">
 										<span class="checkmark">Company A</span>
@@ -180,23 +183,24 @@
                          	<button type="button" class="clear">Clear</button>
                         </div>
                     </div>
-                 </article>
+				 </article>
+				 <!--  Prices filter-->
                  <article class="filter-group" style="margin-right: 3%">
                      <header class="card-header">
-                     	<a href="#" data-toggle="collapse" data-target="#price_search" class="collapsed"> 
+                     	<a href="#" data-toggle="collapse" data-target="#price_search" class="collapsed"> <!--Hide and show content -->
                      		<i class="icon-control fa fa-chevron-down"></i>
                              <h6 class="title">Price </h6>
                          </a> 
                      </header>
                      <div class="filter-content collapse" id="price_search">
                          <div class="card-body price-body"> 
-                         	<input type="range" class="custom-range" min="0" max="1000000" name="">
+                         	<input type="range" class="custom-range" min="0" max="1000000" name=""> <!-- set range for input-->
                             <div class="form-row">
-                                <div class="form-group col-6"> 
+                                <div class="form-group col-6"> <!--Min value of price -->
                                  	<label>Min</label> 
                                  	<input class="form-control" placeholder="$0" type="number"> 
                                 </div>
-                                <div class="form-group text-right col-6"> 
+                                <div class="form-group text-right col-6"> <!--Max value of price -->
                                  	<label>Max</label> 
                                  	<input class="form-control" placeholder="$1,0000" type="number"> 
                                 </div>
@@ -209,9 +213,9 @@
 	    	</div><!--class="col-md-3"-->
 	    	<div class="col-md-9 col-sm-12 col-xs-12">
 	    		<div class="row" style="margin-top: 3%">
-		    		<button class="view" onclick="listView()"><i class="fa fa-bars"></i></button>
-		         <button class="view" onclick="gridView()"><i class="fa fa-th-large"></i></button>
-		         <div class="btn-group sort_by_btn">
+		    		<button class="view" onclick="listView()"><i class="fa fa-bars"></i></button> <!-- display with ListView fucntion-->
+		         <button class="view" onclick="gridView()"><i class="fa fa-th-large"></i></button> <!-- display with gridView function-->
+		         <div class="btn-group sort_by_btn"> <!--Sort list -->
 			         <button type="button" class="btn btn-success dropdown-toggle text-left" data-toggle="dropdown">Sort by:</button>
 			         <div class="dropdown-menu sort_by_window">
 			            <a class="dropdown-item sort_item" href="#">price low to high</a>
@@ -222,10 +226,10 @@
 			            <a class="dropdown-item sort_item" href="#">Customer choice</a>
 			         </div>
 		        	</div>
-	            <div class="row">
+	            <div class="row"> <!-- Display product block-->
 			         <div class="product_block">
 				            <div class="column">
-				               <div class="card">..</div>
+				               <div class="card" >..</div>
 				            </div>
 				            <div class="column">
 				               <div class="card">..</div>
@@ -272,11 +276,13 @@
 				            <div class="column">
 				               <div class="card">..</div>
 		        				</div>
-		        		</div>
+						</div>
+						<!--Show More button-->
+						
 		        		<div class="show_more text-center">
 		        			<button type="button" class="show_more_btn">Show more<i class="fa fa-refresh" style="padding: 5px"></i></button>
 		        		</div>					   
-					   
+					   <!-- Number of page display -->
 					   <div class="pages">
 					   	<nav>
 				            <ul class="pagination">
@@ -296,6 +302,8 @@
 	    		</div>	
 		   </div><!--class="col-md-9"-->
 		</div>
+		 <!-- recently view -->
+		 
 		<div class="row">
 			<div class="col-3 d-none d-md-block"></div>
 			<div class="col-md-9 col-sm-12 col-xs-12">
@@ -317,39 +325,41 @@
 			</div>
 		</div>	  
 
-	        <!-- Footer -->
-	      <footer class="page-footer font-small pt-4" style="margin-top: 100px; margin-left: -15px; margin-right: -15px; background-color: #312B2B; color: white;">
-	         <div class="container-fluid text-center text-md-left">
-	            <div class="row">
-	               <div class="col-md-5 mt-md-0 mt-3">
-	                  <h6 class="text-uppercase ">Footer Content</h6>
-	                     <p style="font-size: 12px ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-	                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-	                     </p>
-	               </div>
-	               <div class="col-md-1"></div>
-	               <hr class="clearfix w-100 d-md-none pb-3">
-	               <div class="col-md-3 mb-md-0 mb-3 col-sm-6">
-	                  <h6 class="text-uppercase ">Contact Us</h6>
-	                  <ul class="list-unstyled">
-	                     <li><a href="#!">Link 1</a></li>
-	                     <li><a href="#!">Link 2</a></li>
-	                     <li><a href="#!">Link 3</a></li>
-	                      <li><a href="#!">Link 4</a></li>
-	                  </ul>
-	               </div>
-	                  <div class="col-md-3 mb-md-0 mb-3 col-sm-6">
-	                     <h6 class="text-uppercase">Policies & Info</h6>
-	                     <ul class="list-unstyled">
-	                        <li><a href="#!">Link 1</a></li>
-	                        <li><a href="#!">Link 2</a></li>
-	                        <li><a href="#!">Link 3</a></li>
-	                        <li><a href="#!">Link 4</a></li>
-	                     </ul>
-	                  </div>
-	            </div>
-	         </div>
-	      </footer>
+	    <!-- Footer -->
+        <footer class="page-footer font-small pt-4" style="margin-top: 60px; background-color: #312B2B; margin-left: -15px; margin-right: -15px; color: white">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-5 mt-md-0 mt-3">
+                        <!-- Footer Content -->
+                        <h6 class="text-uppercase">Footer Content</h6>
+                        <p style="font-size: 12px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <div class="col-md-3 mb-md-0 mb-3 col-sm-6">
+                        <h6 class="text-uppercase">Contact Us</h6>
+                        <ul class="list-unstyled">
+                             <!-- Contact List -->
+                            <li><a href="#!">Link 1</a></li>
+                            <li><a href="#!">Link 2</a></li>
+                            <li><a href="#!">Link 3</a></li>
+                            <li><a href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mb-3 col-sm-6">
+                        <h6 class="text-uppercase">Policies & Info</h6>
+                        <ul class="list-unstyled">
+                             <!-- Policies & Info List -->
+                            <li><a href="#!">Link 1</a></li>
+                            <li><a href="#!">Link 2</a></li>
+                            <li><a href="#!">Link 3</a></li>
+                            <li><a href="#!">Link 4</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
 
 
     </div><!--class="container-fluid" style="height: 100%;"-->
@@ -379,7 +389,7 @@
             });
         }
     </script>
-    <script src="./main.js "></script>
+    <script src="./main.js "></script>  <!--Implement javascript function form main.js file-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
